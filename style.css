@@ -361,17 +361,20 @@ footer {
         font-weight: 400;
         text-align: center;
     }
+
     .hero> :nth-child(3) {
         font-size: 16.7px;
         font-weight: 400;
         text-align: center;
     }
+
     nav img {
         position: relative;
         z-index: 10;
         width: 130px;
         right: 50px;
     }
+
     .btn-lang {
         padding: 5px 15px;
         font-weight: 400;
@@ -385,6 +388,7 @@ footer {
         left: 70px;
         margin-top: 10px;
     }
+
     .btn.red1 {
         background-color: red;
         color: white;
@@ -397,6 +401,7 @@ footer {
         left: 70px;
         margin-top: 5px;
     }
+
     .hero2 input {
         padding: 12px 7px 11px 15px;
         background-color: rgba(52, 52, 52, 0.582);
@@ -408,15 +413,34 @@ footer {
         border: none;
         margin-left: 15px;
     }
+
     .btn.red2 {
         background-color: red;
         color: white;
-        padding: 7px 6px;
+        padding: 7px 9px;
+        /* text-overflow: ellipsis; */
         border-radius: 4px;
         font-size: 13px;
         font-weight: 600;
         position: relative;
         right: 8px;
+        border: none;
     }
+
+
+    .first span:first-child {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    .hero2 {
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+
 
 }
